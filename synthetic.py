@@ -131,3 +131,4 @@ def generate_evolution3(output_path, z=3, avg_degree=16, tsteps=10):
 if __name__ == "__main__":
     generate_evolution("./data/syntetic1/", tsteps=10)
     generate_evolution2("./data/syntetic2/", tsteps=9)
+    generate_evolution3("./data/syntetic5/", tsteps=15)
